@@ -1,14 +1,26 @@
 package me.bkkn.kotlinlesson1;
 
-import androidx.appcompat.app.AppCompatActivity;
+//import androidx.appcompat.app.AppCompatActivity;
+//
+//import android.os.Bundle;
 
-import android.os.Bundle;
+//public class MainActivity extends AppCompatActivity {
+//
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        setContentView(R.layout.activity_main);
+//    }
+//}
 
-public class MainActivity extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+import android.os.Bundle
+
+class MainActivity :AppCompatActivity(){
+
+        override fun onCreate(savedInstanceState:Bundle?){
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+        }
 }

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">KotlinLesson1</string>
     <string name="hello_java">Hello Java!</string>
+    <string name="hello_kotlin">Hello Kotlin!</string>
 </resources>
